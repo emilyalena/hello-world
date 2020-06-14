@@ -1,0 +1,40 @@
+.white-text{
+  color: white;
+}
+.main-background{
+  background-color: #6EAAB8;
+  text-align: center;
+  padding: 5px;
+}
+.smaller-width{
+  width: 20px;
+}
+.form-style{
+  background-color: #5C97A5;
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+h1{
+  font-family: sans serif;
+}
+h2{
+  font-family: sans-serif;
+  text-align: center;
+}
+input{
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+}
+label{
+  display: inline-block;
+  text-align: right;
+}
+hr{
+  background-color: black;
+  border: none;
+  height: 1px;
+  width: 600px;
+  padding: .3px;
+}
