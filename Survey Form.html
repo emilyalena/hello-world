@@ -1,0 +1,84 @@
+<div class="main-background">
+<header>
+  <h1 id="title">Job Interest Survey</h1>
+  <p id="description" class="white-text">Thank you for connecting with us. We will reach out with availability.</p>
+</header>
+  <hr>
+  <br>
+  <br>
+  <div class="form-style">
+  <form id="survey-form">
+    <br>
+    <br>
+    <label id="name-label"><strong>Full Name: </strong></label>
+      <input id="name" type="text" placeholder="Enter Your First & Last Name" required>
+    <br>
+    <br>
+    <br>
+    <label id="email-label"><strong>Email: </strong></label>
+      <input id="email" type="email" placeholder="Enter Your Email Address" required>
+    <br>
+    <br>
+    <br>
+    <label id="number-label"><strong>Years of Experience: </strong></label>
+      <input id="number" type="number" placeholder="Enter Your Years of Experience" min="0" max="40" required> 
+    <br>
+    <br>
+    <br>
+    <label id="department-label"><strong>Department of Interest: </strong></label>
+    <select id="dropdown">
+      <option value="0"></option>
+      <option value="1">Administrative</option>
+      <option value="2">Data & Analytics</option>
+      <option value="3">Front-End Development</option>
+      <option value="4">Operations</option>
+      <option value="5">Human Resources</option>
+      </select>
+    <br>
+    <br>
+    <br>
+    <label><strong>Select Your Skills: </strong></label>
+    <label for="tableau">
+      <input class="smaller-width" id="tableau" type="checkbox" value="tableau" name="skills">Tableau
+    </label>
+    <label for="sql">
+      <input class="smaller-width" id="sql" type="checkbox" value="sql" name="skills">SQL
+    </label>
+    <label for="java">
+      <input class="smaller-width" id="java" type="checkbox" value="java" name="skills">Java
+    </label>
+    <label for="C++">
+           <input class="smaller-width" id="C++" type="checkbox" value="C++" name="skills">C++
+    </label>
+    <label for="python">
+           <input class="smaller-width" id="python" type="checkbox" value="python" name="skills">Python
+    </label>
+    <br>
+    <br>
+    <br>
+    <label><strong>How did you hear about us? </strong></label>
+    <label for="referral">
+      <input class="smaller-width" id="referral" type="radio" value="referral" name="how">Referral
+    </label>
+    <label for="internet">
+      <input class="smaller-width" id="internet" type="radio" value="internet" name="how">Internet Search
+    </label>
+    <label for="ad">
+      <input class="smaller-width" id="ad" type="radio" value="ad" name="how">Advertisement
+    </label>
+    <label for="agency">
+      <input class="smaller-width" id="agency" type="radio" value="agency" name="how">Job Agency
+    </label>
+    <br>
+    <br>
+    <br>
+    <label for="comments"><strong>Any comments or questions?</strong></label>
+    <textarea id="comments" rows="4"></textarea>
+    <br>
+    <br>
+    <button id="submit" type="submit" style="width:200px">Submit</button>
+    </button>
+    <br>
+    <br>
+  </div>
+</div>
