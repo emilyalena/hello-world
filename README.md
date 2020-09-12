@@ -1,4 +1,4 @@
 # hello-world
-A repository for ideas &amp; resources
+A repository for snippets and small learning projects while learning a new language or concept.
 
-Emily Schmucker's Github Projects
+Emily Schmucker's Github Snippets
